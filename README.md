@@ -10,7 +10,7 @@ Motion Recognition Algorithms:
 
 - Dynamic Time Warping (DTW-algorithm)
 - DTW-based K-Nearest Neighbor 
-- LSTM network (Long short-term memory network)
+- LSTM Network 
 
 Description of Motion Trajectory via:
 
