@@ -36,12 +36,18 @@ In this script the invariant descriptors for 1200 samples of 10 motion classes a
 
 In this script the invariant descriptors for 1200 samples of 10 motion classes are constructed and then classified using the DTW-algorithm, using an optimized approach.
 
+![]()
+
 # Script 3: Main Classify ALL - DTW-based KNN
 
 In this script a k-Nearest Neighbor algorithm is constructed using DTW-distance instead of the traditional Eucledian distance used in the literature, to classify the corresponding rigid body motions.
 
+![]()
+
 # Script 4: Main Classify All - LSTM network
 
 In this script an LSTM network is trained to classify the corresponding motions, while keeping the amount of training data to a minimal amount (about 8.3% of the whole dataset provided by KU Leuven).
+
+![]()
 
 
