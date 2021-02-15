@@ -28,6 +28,8 @@ Invariant Descriptors Calculation Types:
 - Analytical formulas
 - Optimized Approach
 
+![](Figures/Motion%20Trajectory%20represented%20by%20ISA%20invariant%20descriptors.jpg)
+
 # Script 1: Main Classify All - DTW
 
 In this script the invariant descriptors for 1200 samples of 10 motion classes are constructed and then classified using the DTW-algorithm, using analytical formulas.
@@ -36,18 +38,25 @@ In this script the invariant descriptors for 1200 samples of 10 motion classes a
 
 In this script the invariant descriptors for 1200 samples of 10 motion classes are constructed and then classified using the DTW-algorithm, using an optimized approach.
 
-![]()
+![](Figures/DTW.jpg)
 
 # Script 3: Main Classify ALL - DTW-based KNN
 
 In this script a k-Nearest Neighbor algorithm is constructed using DTW-distance instead of the traditional Eucledian distance used in the literature, to classify the corresponding rigid body motions.
 
-![]()
+![](Figures/DTW-based%20KNN.jpg)
 
 # Script 4: Main Classify All - LSTM network
 
-In this script an LSTM network is trained to classify the corresponding motions, while keeping the amount of training data to a minimal amount (about 8.3% of the whole dataset provided by KU Leuven).
+In this script an LSTM network is trained to classify the corresponding motions, while keeping the amount of training data to a minimal amount (about 8.3% of the whole dataset provided by KU Leuven). A brief representation of the network and the training accuracy and error are shown:
 
-![]()
+![](Figures/LSTM.jpg)
+![](Figures/LSTM%20Accuracy%20and%20Error.jpg)
 
+# Overall Classification Accuracy
 
+Due to the invariance of the descriptors, a minimal amount of training data are required in every approach, even in the LSTM approach. The amount of data that are used for training and testing are split in a similar manner for every method as follows:
+- 8.3% (train)
+- 91.7% (test)
+
+![](Figures/Classification%20Accuracy%20Comparison.jpg)
