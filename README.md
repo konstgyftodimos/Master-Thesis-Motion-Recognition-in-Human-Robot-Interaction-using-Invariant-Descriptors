@@ -1,8 +1,8 @@
 # Motion-Recognition-in-Human-Robot-Interaction-using-Invariant-Descriptors
 
-The motion of a rigid object is expressed in a way, in which it will hold certain invariant properties with respect to several contextual dependencies of the recorded motion. Frenet Serret and Instantaneous Screw Axis Invariant Descriptors are being used to describe a rigid body trajectory. 
+The motion of a rigid object is expressed in a way, in which it will hold certain invariant properties with respect to several contextual dependencies of the recorded motion. Frenet Serret **(FS)** and Instantaneous Screw Axis **(ISA)** Invariant Descriptors are being used to describe a rigid body trajectory. 
 
-The motion recognition algorithms that are proposed, consist of a modified machine learning, distance-based, and a deep learning method. The amount of motions required to train the corresponding methods is kept to minimal and equal for every approach, so that a comparative basis can be established, and the invariance of the investigated motion representations favors the minimal amount of training data usage.
+The motion recognition algorithms that are proposed, consist of a **modified machine learning, distance-based**, and a **deep learning method**. The amount of motions required to train the corresponding methods is kept to minimal and equal for every approach, so that a comparative basis can be established, and the invariance of the investigated motion representations favors the **minimal amount of training data usage**.
 
 # Summary
 
