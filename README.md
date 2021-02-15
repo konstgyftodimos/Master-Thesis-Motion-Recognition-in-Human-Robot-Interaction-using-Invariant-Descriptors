@@ -33,7 +33,7 @@ Invariant Descriptors Calculation Types:
 The trajectory of a rigid body is represented by six (6) ISA - invariant descriptors, at each time moment. Below an example trajectory is illustrated, followed by the ISA-descriptors calculated with analytical formulas (blue) and optimized approach (red):
 
 ![](Figures/Motion%20Trajectory%20represented%20by%20ISA%20invariant%20descriptors.jpg)
-![]()
+![](Figures/ISA%20descriptors%20.jpg)
 
 # Script 1: Main Classify All - DTW
 
