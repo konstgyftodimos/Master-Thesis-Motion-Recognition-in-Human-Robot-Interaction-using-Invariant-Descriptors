@@ -65,3 +65,8 @@ Due to the invariance of the descriptors, a minimal amount of training data are 
 - 91.7% (test)
 
 ![](Figures/Classification%20Accuracy%20Comparison.jpg)
+
+# Notes
+
+- This project is my master thesis in collaboration with: KU Leuven, Robotics, Automation and Mechatronics (RAM), Leuven (Arenberg)
+- Possible missing functions due to copyright issues, for further information email me at: konstgyftodimos@gmail.com
