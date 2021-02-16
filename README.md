@@ -1,4 +1,4 @@
-# Motion-Recognition-in-Human-Robot-Interaction-using-Invariant-Descriptors
+# Thesis-Project-Motion-Recognition-in-Human-Robot-Interaction-using-Invariant-Descriptors
 
 The motion of a rigid object is expressed in a way, in which it will hold certain invariant properties with respect to several contextual dependencies of the recorded motion. Frenet Serret **(FS)** and Instantaneous Screw Axis **(ISA)** Invariant Descriptors are being used to describe a rigid body trajectory. 
 
